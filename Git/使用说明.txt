@@ -1,0 +1,11 @@
+默认安装
+打开git-bash.exe，在桌面快捷方式/开始菜单/安装目录中
+因为Git是分布式版本控制系统，所以需要填写用户名和邮箱作为一个标识，用户和邮箱为你github注册的账号和邮箱
+
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+生成 SSH Key
+$ ssh-keygen -t rsa -C "your_email@example.com"
+全部回车回车回车
+C:\Users\Administrator\.ssh\id_ras.pub
+里面是ssh ,放到github上面去
